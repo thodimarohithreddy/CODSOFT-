@@ -8,7 +8,6 @@ struct Task {
     string description;
     bool completed;
 };
-
 void addTask(vector<Task>& tasks, const string& description) {
     tasks.push_back({description, false});
     cout << "Task added successfully." << endl;
